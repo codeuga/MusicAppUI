@@ -5,5 +5,6 @@ Link Demo / Download Apk
 - https://drive.google.com/drive/folders/12dfo1ijsrCOBXAvpgPAbJ8S4N4y239MJ?usp=sharing
 
 
-![Planet App](https://github.com/codeuga/PlanetsApp/assets/155093213/26c26bae-c41f-4642-81d4-696d531f05f0)
+![Music App UI](https://github.com/user-attachments/assets/18b229c4-0c43-438f-9b92-d6f9dec5ea9e)
+
 
