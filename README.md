@@ -1,16 +1,9 @@
-# musicapp_ui
+# Music App
 
-A new Flutter project.
 
-## Getting Started
+Link Demo / Download Apk
+- https://drive.google.com/drive/folders/12dfo1ijsrCOBXAvpgPAbJ8S4N4y239MJ?usp=sharing
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Planet App](https://github.com/codeuga/PlanetsApp/assets/155093213/26c26bae-c41f-4642-81d4-696d531f05f0)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
