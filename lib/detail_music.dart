@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:musicapp_ui/data.dart';
 
 class DetailMusic extends StatelessWidget {
-  const DetailMusic({super.key});
+  final ListPlaylist item;
+  const DetailMusic({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +59,7 @@ class DetailMusic extends StatelessWidget {
                           height: 30,
                         ),
                         Image.asset(
-                          'assets/Rectangle 86.png',
+                          item.gambar,
                           width: 342,
                           height: 333,
                           fit: BoxFit.cover,
@@ -72,7 +74,7 @@ class DetailMusic extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  "You Right",
+                                  item.nama,
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
@@ -80,7 +82,7 @@ class DetailMusic extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "Doja Cat, The Weeknd",
+                                  item.deskripsi,
                                   style: TextStyle(
                                     color: Color(0xffA5A5A5),
                                     fontSize: 16,
@@ -111,7 +113,7 @@ class DetailMusic extends StatelessWidget {
                               style: TextStyle(color: Colors.white),
                             ),
                             Text(
-                              '3:58',
+                              item.durasi,
                               style: TextStyle(color: Colors.white),
                             ),
                           ],
