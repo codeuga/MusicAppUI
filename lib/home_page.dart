@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        "What do you feel like today?",
+                        "What do you feel like today",
                         style: TextStyle(
                           fontSize: 16,
                           color: Color(0xffA5A5A5),
